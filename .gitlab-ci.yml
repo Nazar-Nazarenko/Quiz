@@ -1,0 +1,23 @@
+variables:
+  # Common
+  AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+  AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+  AWS_REGION: $AWS_REGION
+  S3_BUCKET_NAME: $S3_BUCKET_NAME
+  CLOUDFLARE_URL: $CF_URL
+  EMAIL: "X-Auth-Email: $CF_EMAIL"
+  AUTH:  "X-Auth-Key: $CF_AUTH"
+  CONTENT: 'Content-Type: application/json'
+
+deploy to production:
+  environment: production
+  stage: deploy
+  image: python:latest
+  before_script:
+    - pip install awscli
+    - eval $(aws ecr get-login --no-include-email --region $AWS_REGION | sed 's|https://||')
+  script:
+  - aws s3 cp ./dist/ s3://$S3_BUCKET_NAME/quiz/en/ --recursive  --include "*"
+  - curl -X POST "${CLOUDFLARE_URL}" -H "${EMAIL}" -H "${AUTH}" -H "${CONTENT}" --data '{"purge_everything":true}'
+  only:
+  - master

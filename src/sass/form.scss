@@ -1,0 +1,201 @@
+.q8 {
+
+}
+.q8-wrap-pop-up .q8 .q8-form__submit,
+.content-header .q8 .q8-form__submit {
+  border-radius: 35px;
+  background: linear-gradient(to bottom, rgba(177,136,65,1) 1%,rgba(177,136,65,1) 1%,rgba(216,184,111,1) 100%);
+  box-shadow: none;
+}
+
+.q8-wrap-pop-up .q8 .q8-form__submit:hover,
+.content-header .q8 .q8-form__submit:hover{
+  background: linear-gradient(to bottom, rgba(216,184,111,1) 0%,rgba(177,136,65,1) 99%,rgba(177,136,65,1) 99%);
+
+}
+.q8-wrap-pop-up .q8 .q8-form {
+  border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+.content-header .q8 .q8-form {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+.q8-wrap-pop-up .q8-form .q8-form__input,
+.content-header .q8-form .q8-form__input {
+  border-radius: 0;
+}
+
+.q8-wrap-pop-up .q8-form .select__selected,
+.content-header .q8-form .select__selected{
+  border-radius: 0;
+}
+.q8-wrap-pop-up .q8 form #PrivacyPolicy+label,
+.content-header .q8 form #PrivacyPolicy+label,
+.q8-wrap-pop-up .q8 form #marketingMaterials+label,
+.content-header .q8 form #marketingMaterials+label{
+  border-radius: 0;
+}
+.q8-form__input .q8-form__input-phone {
+  margin-bottom: -5px;
+}
+.q8-pop-up {
+  position: relative;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #bfbfbf;
+  -webkit-box-shadow: 2px 4px 20px 0 rgba(0,0,0,.08);
+  box-shadow: 2px 4px 20px 0 rgba(0,0,0,.08);
+  width: 360px;
+  margin: auto;
+}
+
+.q8-wrap-pop-up .head-form {
+  padding: 20px 20px 0;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+.q8-wrap-pop-up .head-form-title {
+  font-weight: 700;
+  color: #b58d46;
+  padding-bottom: 5px;
+}
+.q8-wrap-pop-up .head-form-sub-title {
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.q8-wrap-pop-up .head-form-text {
+}
+.q8-form-container .q8-form-row .q8-form__input-error {
+  position: relative;
+  height: auto;
+}
+.q8 form.q8-form .q8-form-row {
+  margin: 10px 0 !important;
+  /*position: relative;*/
+}
+.q8 form.q8-form .q8-form-row.q8-form-row-fullname {
+  margin-top: 0 !important;
+}
+.q8 .q8-form-row-phone-group .phonePrefix {
+  margin: 0 !important;
+  order: 0!important;
+}
+.q8-form-row-phone-group .q8-form__input-phone {
+  order: 0!important;
+}
+.q8 form.q8-form .q8-form__input {
+  margin: 0 !important;
+  background-color: white;
+}
+.q8 .q8-form .q8-form-row.q8-form-row-country-currency {
+  display: none;
+}
+.q8 .q8-form .q8-form__consent {
+  margin: 0 !important;
+}
+.q8 .q8-form .q8-form__consent {
+  position: relative;
+  display: block !important;
+}
+.q8 .q8-form .q8-form__consent:first-child {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.q8 .q8-form #marketingMaterials+label,
+.q8 .q8-form #PrivacyPolicy+label {
+  border-radius: 0 !important;
+}
+.q8 .q8-form #marketingMaterials+label,
+.q8 .q8-form #PrivacyPolicy+label {
+  position: absolute;
+  width: 25px;
+  height: 25px !important;
+  line-height: 23px;
+}
+.q8 .q8-form .q8-form__consent-label {
+  min-height: 25px;
+  padding-left: 33px !important;
+  padding-top: 3px;
+  text-align: left;
+  order: 2;
+}
+.q8 .q8-form .q8-form__submit {
+  margin-top: 30px !important;
+  margin-bottom: 0 !important;
+}
+.q8 .q8-form {
+  padding-bottom: 15px !important;
+}
+.content-header .q8-form .select__selected {
+  height: 40px !important;
+  background-color: white;
+}
+#app .q8-form-container .q8-form__input-error {
+  top: 0;
+  position: relative;
+  font-size: 12px;
+}
+#app .q8-form-privacyPolicy .q8-form__input-error {
+  position: relative !important;
+  bottom: 0 !important;
+  order: 3;
+}
+#app .q8-form__consent-label .terms-container {
+  pointer-events: none;
+  color: black;
+}
+@media screen and (max-width: 425px) {
+  .content-header .q8-form .select__selected {
+    height: 30px !important;
+    background-color: white;
+  }
+  .q8 form.q8-form .q8-form__input {
+    background-color: white;
+  }
+  .content-header .q8 .q8-form {
+    background-color: #f2f2f2;
+  }
+  #app .q8-form-privacyPolicy .q8-form__input-error {
+    bottom: 30px;
+    right: 20px;
+  }
+  .q8 .q8-form .q8-form__consent-label {
+    padding-left: 44px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .content-header .q8-form .select__selected {
+    height: 30px !important;
+  }
+  #app .q8-form-privacyPolicy .q8-form__input-error {
+    bottom: 37px;
+    right: 20px;
+  }
+
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .content-header .q8-form .select__selected {
+    height: 30px !important;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 554px) {
+  .content-header .q8 .q8-form {
+    background-color: #f2f2f2;
+  }
+}
+
+.q8 > div {
+  background-color: white;
+  padding: 160px 20px;
+  font-family: 'Tahoma';
+  font-weight: bold;
+}

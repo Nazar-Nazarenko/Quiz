@@ -1,0 +1,120 @@
+//@media screen and (min-width: 375px) and (max-width: 424px) {
+//  .bottom {
+//    padding-top: 540px;
+//  }
+//}
+@media screen and (max-width: 425px) {
+  .content-header {
+    background: #f2f2f2;
+    padding-top: 40px;
+    margin: 0 -20px;
+  }
+  .registration-image-logo {
+    width: 170px;
+    height: 110px;
+  }
+  //.bottom {
+  //  padding-top: 520px;
+  //}
+  .logo-form {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: -12%;
+    right: 5%;
+  }
+  .congratulations {
+    font-size: 30px;
+  }
+  .head-q8 {
+    background: #f2f2f2;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0px;
+    position: relative;
+    transform: translateY(10px);
+    padding-top: 40px;
+  }
+  .registration-form {
+    position: relative;
+  }
+}
+@media screen and (max-width: 565px) {
+  .head-q8 {
+    background: #f2f2f2;
+  }
+}
+@media screen and (max-width: 767px) {
+  .head-q8 {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+}
+
+@media screen and (max-width: 1074px) {
+  .top {
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 0;
+    .toggle {
+      padding-top: 5px;
+    }
+  }
+  .white-text{
+    text-align: center;
+    padding-left: 0;
+    .main-text {
+      font-size: 25px;
+      width: 100%;
+      padding: 15px 0;
+    }
+    .first-main-text {
+      font-size: 25px;
+      width: 100%;
+      padding: 15px 0;
+    }
+    .text {
+      font-size: 17px;
+      padding: 15px 0;
+    }
+  }
+
+  .center-for-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  .gold-line {
+    border-top: 5px solid #c2a848;
+    width: 100px;
+  }
+  .gold-text {
+    text-align: center;
+    font-size: 17px;
+    padding: 30px 0 15px;
+  }
+  .main-button {
+    font-size: 15px;
+    padding: 10px 75px;
+  }
+  .for-button {
+    justify-content: center;
+  }
+  .disclaimer {
+    padding: 20px 0 20px;
+  }
+  .payment-mobile {
+    display: block;
+    padding-top: 15px;
+  }
+  .payment {
+    display: none;
+  }
+  .final-block {
+    display: block;
+  }
+  .content-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}
+

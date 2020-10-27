@@ -1,0 +1,158 @@
+#enter-quiz {
+  display: none;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.wrapper {
+  background: url("../images/bg-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  .toggle {
+    display: flex;
+    padding-top: 30px;
+    font-size: 14px;
+    .english {
+      color: white;
+      font-family: 'NotoSans';
+      padding-right: 7px;
+      border-right: 1px solid white;
+      height: 20px;
+      cursor: pointer;
+    }
+    .english:hover {
+      color: #cccccc;
+    }
+    .arabian {
+      font-family: 'NotoKufiArabic';
+      padding-left: 7px;
+      cursor: pointer;
+      color: #c2a848;
+    }
+    .arabian a {
+      color: #c2a848;
+    }
+    .arabian a:hover {
+      color: burlywood;
+    }
+  }
+}
+.white-text {
+  color: white;
+  text-align: left;
+  padding-bottom: 20px;
+  .main-text {
+    font-size: 45px;
+    font-family: 'NotoSerif';
+    padding: 20px 0;
+    width: 75%;
+  }
+  .first-main-text {
+    font-size: 45px;
+    font-family: 'NotoSerif';
+    padding: 20px 0;
+    width: 75%;
+  }
+  .text {
+    font-family: 'NotoSans';
+    font-size: 30px;
+    padding: 20px 0;
+  }
+}
+.gold-text {
+  font-family: 'NotoSans';
+  font-size: 30px;
+  padding: 45px 0 30px;
+  color: #c2a848;
+  text-align: left;
+}
+.gold-line {
+  border-top: 10px solid #c2a848;
+  width: 150px;
+  border-radius: 10px;
+}
+.for-button {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.main-button {
+  text-transform: uppercase;
+  color: #002c4f;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'NotoSans';
+  border-radius: 30px;
+  padding: 10px 100px;
+  background: linear-gradient(180deg, rgba(228,215,97,1) 0%, rgba(205,197,76,1) 35%, rgba(195,176,49,1) 100%);
+}
+.main-button:hover {
+  background: linear-gradient(180deg, rgba(201,191,100,1) 0%, rgba(233,226,122,1) 35%, rgba(195,176,49,1) 100%);
+}
+.payment-mobile {
+  display: none;
+}
+.payment {
+  padding: 35px 0;
+}
+.disclaimer {
+  font-family: 'NotoSans';
+  text-align: justify;
+  font-size: 12px;
+  padding: 20px 0 40px;
+}
+.copyright {
+  font-family: 'NotoSans';
+  font-size: 14px;
+  padding: 20px 0 55px;
+}
+.wrap {
+  border-bottom: 12px solid #c2a848;
+}
+.final-block {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.registration-form {
+  width: 400px;
+  max-width: 100%;
+  padding-left: 10px;
+}
+.head-q8 {
+  background: white;
+  font-size: 27px;
+  font-family: 'NotoSans';
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  padding: 20px 10px 15px;
+  margin-top: 20px;
+}
+.congratulations {
+  font-family: 'NotoSerif';
+  font-size: 40px;
+  color: #c2a848;
+}
+.space-add {
+  padding:  20px 0;
+}
+#enter-form {
+  display: none;
+  background: url("../images/bg-quiz.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo-form {
+  display: none;
+}
+
